@@ -1,0 +1,16 @@
+# Client Dependencies
+textual==0.44.1
+rich==13.7.0
+websockets==12.0
+requests==2.31.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+asyncio
+
+# Voice chat dependencies
+pyaudio==0.2.11
+aiortc==1.6.0
+aioice==0.9.0
+
+# Building standalone executables
+pyinstaller==6.2.0

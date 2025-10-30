@@ -1,0 +1,17 @@
+# Server Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+sqlalchemy==2.0.23
+alembic==1.12.1
+bcrypt==4.1.1
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
+pydantic[email]==2.5.0
+aiosmtplib==3.0.1
+python-dotenv==1.0.0
+sqlite3
+
+# Voice chat dependencies
+aiortc==1.6.0
+aioice==0.9.0

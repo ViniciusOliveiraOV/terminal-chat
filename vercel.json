@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server/main.py"
+    }
+  ],
+  "env": {
+    "SECRET_KEY": "@secret_key",
+    "EMAIL_USERNAME": "@email_username", 
+    "EMAIL_PASSWORD": "@email_password",
+    "SERVER_BASE_URL": "@server_base_url"
+  }
+}
